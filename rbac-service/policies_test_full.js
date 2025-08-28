@@ -1,0 +1,1051 @@
+/*
+ Navicat Premium Dump Script
+
+ Source Server         : Moly Mongo
+ Source Server Type    : MongoDB
+ Source Server Version : 70008 (7.0.8)
+ Source Host           : localhost:27017
+ Source Schema         : rbac
+
+ Target Server Type    : MongoDB
+ Target Server Version : 70008 (7.0.8)
+ File Encoding         : 65001
+
+ Date: 06/04/2025 06:20:41
+*/
+
+
+// ----------------------------
+// Collection structure for policies_test_full
+// ----------------------------
+db.getCollection("policies_test_full").drop();
+db.createCollection("policies_test_full");
+
+// ----------------------------
+// Documents of policies_test_full
+// ----------------------------
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01490d"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/test",
+    act: "*",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01490e"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/test",
+    act: "*",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01490f"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin",
+    act: "*",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014910"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/save",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014911"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/login",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014912"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/user",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014913"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/refreshtoken",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014914"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/logout",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014915"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/sandbox/*",
+    act: "*",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014916"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/routes",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014917"),
+    service: "broker",
+    type: "g",
+    sub: "member",
+    obj: "guest",
+    act: null,
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014918"),
+    service: "broker",
+    type: "g",
+    sub: "admin",
+    obj: "member",
+    act: null,
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b014919"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/verifyemail",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01491a"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/organization/settings",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01491b"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "653d183801c9db2b560390d2",
+    act: "topMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01491c"),
+    service: "organization",
+    sub: "member",
+    type: "p",
+    obj: "653d19da01c9db2b560390d3",
+    act: "topMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01491d"),
+    service: "organization",
+    sub: "member",
+    type: "p",
+    obj: "653d19f701c9db2b560390d4",
+    act: "topMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6536dfa9778fa4bd5b01491e"),
+    service: "organization",
+    host: "",
+    sub: "admin",
+    obj: "member",
+    type: "g",
+    unit: "menu",
+    act: null,
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("654950bdeddcc2bcb70fc292"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/organization/items",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("658f24bded3564c9b3004d62"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/settings",
+    act: "PUT",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("65d0d90c4becb142e2024880"),
+    obj: "/user/password",
+    act: "PUT",
+    sub: "member",
+    type: "p",
+    service: "broker",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("65d0d9134becb142e2024881"),
+    obj: "/user/account",
+    act: "PUT",
+    sub: "member",
+    type: "p",
+    service: "broker",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("65e080e2e7122d564603f433"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/sandbox/sandbox",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("65f1f5edadf2cf52220c9092"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/password",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("660331d2ec327629410f0833"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/email",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66043737ec327629410f0837"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/forgotpassword",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6604374cec327629410f0838"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/password",
+    act: "PUT",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6604d22dec327629410f083a"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/files",
+    act: "POST",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661cf80540b3262f00007276"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "661cf75340b3262f00007275",
+    act: "adminLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661cf80a40b3262f00007277"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "661cf72240b3262f00007274",
+    act: "adminLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661d279940b3262f0000727a"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "661d26a940b3262f00007278",
+    act: "userDropdownMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661d27ba40b3262f0000727b"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "661d273c40b3262f00007279",
+    act: "userDropdownMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661dca0cefbc811f750274c5"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "661dc5e7efbc811f750274c1",
+    act: "userLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661dca0eefbc811f750274c6"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "661dc66eefbc811f750274c2",
+    act: "userLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661dca0fefbc811f750274c7"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "661dc6bcefbc811f750274c3",
+    act: "userLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("661dca0fefbc811f750274c8"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    obj: "661dc6f1efbc811f750274c4",
+    act: "userLeftNavMenu",
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6622d1ed9ae32e83c80f7732"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    act: "userMetadata",
+    host: "",
+    unit: "form",
+    obj: "",
+    ctx: "form"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6622d20c9ae32e83c80f7733"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    act: "testForm",
+    host: "",
+    unit: "form",
+    obj: "",
+    ctx: "form"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662968219ae32e83c80f7734"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    act: "adminOrganizationInformation",
+    host: "",
+    unit: "form",
+    obj: "",
+    ctx: "form"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662bdadf9ae32e83c80f7735"),
+    service: "rbac",
+    type: "p",
+    sub: "member",
+    host: "",
+    act: "_",
+    unit: "filter",
+    ctx: "filter"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662bdaf09ae32e83c80f7736"),
+    service: "rbac",
+    type: "p",
+    sub: "member",
+    host: "",
+    act: "__",
+    unit: "filter",
+    ctx: "filter"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662bdb069ae32e83c80f7737"),
+    service: "rbac",
+    type: "p",
+    sub: "admin",
+    host: "",
+    act: "__",
+    unit: "filter",
+    ctx: "filter"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662bdb139ae32e83c80f7738"),
+    sub: "super",
+    service: "rbac",
+    type: "p",
+    host: "",
+    act: "",
+    unit: "filter",
+    ctx: "filter"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662c3ce34d14cabf2e0bf321"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/organization/info",
+    act: "PUT",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662c3d084d14cabf2e0bf322"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/organization/info",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662d342b4d14cabf2e0bf328"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/users",
+    act: "GET",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662d6caa4d14cabf2e0bf329"),
+    obj: "admin",
+    service: "broker",
+    sub: "super",
+    type: "g",
+    act: null,
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662d6d114d14cabf2e0bf32a"),
+    service: "organization",
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    act: null,
+    host: "",
+    unit: "menu",
+    ctx: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662ff64c4d14cabf2e0bf32b"),
+    obj: "/admin/user",
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    act: "PUT",
+    host: "",
+    unit: null
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("662ff6654d14cabf2e0bf32c"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/user",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66320df74d14cabf2e0bf32f"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/user",
+    act: "DELETE",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66320ef04d14cabf2e0bf330"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/organization/form-order",
+    act: "PUT",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66320f074d14cabf2e0bf331"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/organization/form",
+    act: "DELETE",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66320f1c4d14cabf2e0bf332"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/organization/form",
+    act: "PUT",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66320f424d14cabf2e0bf333"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/organization/form",
+    act: "PATCH",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6633da564d14cabf2e0bf33a"),
+    act: "POST",
+    host: "",
+    obj: "/admin/organization/form",
+    service: "broker",
+    sub: "admin",
+    type: "p",
+    unit: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("663bc7504d14cabf2e0bf33d"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/organization/form",
+    act: "GET",
+    host: "",
+    unit: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6646503d6829f565220d5993"),
+    service: "organization",
+    type: "p",
+    sub: "member",
+    act: "member",
+    host: "",
+    unit: "role",
+    obj: "1",
+    ctx: "role"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("664650626829f565220d5994"),
+    service: "organization",
+    type: "p",
+    sub: "super",
+    act: "super",
+    host: "",
+    unit: "role",
+    obj: 3,
+    ctx: "role"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66465f616829f565220d5995"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    act: "admin",
+    obj: "2",
+    host: "",
+    unit: "role",
+    ctx: "role"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("664660186829f565220d5996"),
+    service: "rbac",
+    type: "g",
+    sub: "admin",
+    obj: "member",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("664660266829f565220d5997"),
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    service: "rbac",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("664907496829f565220d599a"),
+    ctx: "formEditView",
+    obj: "member",
+    service: "organization",
+    sub: "admin",
+    type: "g",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6649077c6829f565220d599b"),
+    service: "organization",
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    host: "",
+    ctx: "formEditView"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6649e8f76829f565220d599c"),
+    obj: "member",
+    service: "organization",
+    sub: "admin",
+    type: "g",
+    ctx: "form",
+    host: "",
+    unit: "form"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6649e9356829f565220d599d"),
+    service: "organization",
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    host: "",
+    unit: "form",
+    ctx: "form"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6649eb446829f565220d599e"),
+    service: "organization",
+    type: "g",
+    sub: "admin",
+    obj: "member",
+    host: "",
+    ctx: "role"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6649eb576829f565220d599f"),
+    service: "organization",
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    host: "",
+    unit: "role",
+    ctx: "role"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("664c8b216829f565220d59a1"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/user/setpassword",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66545a876829f565220d59a6"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/store",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66545a996829f565220d59a7"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/store",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66545aa16829f565220d59a8"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/store",
+    act: "DELETE",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66545aa56829f565220d59a9"),
+    service: "broker",
+    type: "p",
+    sub: "member",
+    obj: "/user/store",
+    act: "PUT",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66843c2bd81a728793025394"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/tree",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66843d18d81a728793025395"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/tree",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66843d28d81a728793025396"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/tree",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66843d3cd81a728793025397"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/tree",
+    act: "PUT",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66843d4cd81a728793025398"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/tree",
+    act: "DELETE",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66844043d81a72879302539f"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "66843fc3d81a72879302539e",
+    act: "adminLeftNavMenu",
+    ctx: "menu",
+    host: "",
+    unit: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66870529d81a7287930253a0"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/trees",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("668d8f6ad81a7287930253a3"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/tree/reorder",
+    act: "PUT",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6696e38cd81a7287930253a5"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/trees",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66b639e6071b571d15086fd3"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "66b63960071b571d15086fd2",
+    act: "adminLeftNavMenu",
+    ctx: "menu",
+    host: "",
+    unit: "menu"
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66bb4b4a071b571d15086fd4"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/math",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66d973783c35cfb9ca01a084"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/math/restart-grpc",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66dd8e88be0faed565097c21"),
+    service: "broker",
+    type: "p",
+    sub: "admin",
+    obj: "/admin/math/questions",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66feed6bc42dc2702c022d34"),
+    act: "GET",
+    obj: "/admin/math/question",
+    service: "broker",
+    sub: "admin",
+    type: "p",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("66fef3fcc42dc2702c022d35"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/rbac",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67102f3a62a39f6c300ede01"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/message/sockets",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6713cab10267d2a2210f6bc2"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/ws",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("673f7b0499ece0e6eb080a57"),
+    service: "message",
+    type: "g",
+    sub: "member",
+    obj: "guest",
+    act: null,
+    ctx: "",
+    host: "",
+    unit: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("673f7b1499ece0e6eb080a58"),
+    service: "message",
+    type: "g",
+    sub: "admin",
+    obj: "member",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("673f7b2099ece0e6eb080a59"),
+    service: "message",
+    type: "g",
+    sub: "super",
+    obj: "admin",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("673f7be999ece0e6eb080a5a"),
+    service: "message",
+    type: "p",
+    sub: "admin",
+    act: "post-question-progress",
+    obj: "post-question-progress",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("6740d17b99ece0e6eb080a5c"),
+    service: "message",
+    type: "p",
+    sub: "admin",
+    obj: "xxxx",
+    act: "xxxx",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("675874510ab3070d780f9662"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/math/question",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67a116248934a5d80305bed2"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/oauth/auth",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67a125628934a5d80305bed4"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/oauth/callback",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67cb15c91870832fe906d3d3"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/ext/oauth",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67cb15d81870832fe906d3d4"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/ext/callback",
+    act: "GET",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67e6a2cf23112c42f508b111"),
+    obj: "/auth/resend-mfa-code",
+    act: "POST",
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67e6a2e523112c42f508b112"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/verify-mfa-code",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67e84a2223112c42f508b117"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/otp",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67e84a3623112c42f508b118"),
+    service: "broker",
+    type: "p",
+    sub: "guest",
+    obj: "/auth/verify-otp",
+    act: "POST",
+    host: ""
+} ]);
+db.getCollection("policies_test_full").insert([ {
+    _id: ObjectId("67f254a7c480d571c5058996"),
+    service: "organization",
+    type: "p",
+    sub: "admin",
+    obj: "66b63960071b571d15086fd2",
+    act: "adminLeftNavMenu",
+    ctx: "menu",
+    host: "gogo",
+    unit: "menu"
+} ]);

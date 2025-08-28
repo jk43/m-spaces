@@ -1,0 +1,48 @@
+//protoc -Ipb --go_out=./pb --go_opt=module=github.com/moly-space/molylibs/pb --go-grpc_out=./pb --go-grpc_opt=module=github.com/moly-space/molylibs/pb pb/organization-service.proto
+
+syntax = "proto3";
+
+package organizationservice;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+message OrgRequest {
+  string host = 1 ;
+}
+
+message OrgSettingRequest {
+  string host = 1;
+  string orgID = 2;
+  string key = 3;
+}
+
+message OrgIDResponse {
+  string ID = 1;
+}
+
+message OrgResponse {
+  string ID = 1;
+  bytes settings = 2;
+  bytes info = 3;
+}
+
+message OrgServiceSetting {
+  string key = 1;
+  string value = 2;
+  string valueType = 3;
+}
+
+message OrgServiceSettings {
+  string orgID = 1;
+  string service = 2;
+  string key = 3; // slug or unit
+  repeated OrgServiceSetting settings = 4;
+}
+
+service OrganizationService {
+  rpc GetOrgID (OrgRequest) returns (OrgIDResponse);
+  rpc GetOrg (OrgRequest) returns (OrgResponse);
+  rpc GetOrgSettings (OrgSettingRequest) returns (OrgResponse);
+  rpc SetOrgServiceSettings (OrgServiceSettings) returns (OrgServiceSettings);
+  rpc GetOrgServiceSettingsByKey (OrgServiceSettings) returns (OrgServiceSettings);
+}

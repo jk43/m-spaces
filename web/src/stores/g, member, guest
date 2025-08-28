@@ -1,0 +1,6 @@
+g, member, guest
+g, admin, member
+g. super, admin
+p, member, ,guest
+p, admin, ,member
+p, super, ,admin

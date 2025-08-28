@@ -1,0 +1,66 @@
+//protoc -Ipb --go_out=./pb --go_opt=module=github.com/moly-space/molylibs/pb --go-grpc_out=./pb --go-grpc_opt=module=github.com/moly-space/molylibs/pb pb/user-service.proto
+
+syntax = "proto3";
+
+package userservice;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+import "google/protobuf/empty.proto";
+
+message UserRequest {
+  string userID = 1;
+  string email = 2;
+  string orgID = 3; // organization id is required for get user by email
+  bool EditableMetadataOnly = 4;
+  bool ShareableMetadataOnly = 5;
+  repeated string metadataSets = 6;
+}
+
+// message Organization {
+//   string id = 1;
+//   string status = 2;
+//   string role = 3;
+//   string metadata = 4;
+// }
+
+// message Metadata {
+//   string key = 1;
+//   google.protobuf.Any value = 2;
+// }
+
+message UserResponse {
+  string ID = 1;
+  string orgID = 2;
+  string email = 3;
+  string firstName = 4;
+  string lastName = 5;
+  string profileImage = 6;
+  string status = 7;
+  string role = 8;
+  //map<string, google.protobuf.Any> metadata = 7;
+  bytes metadata = 9;
+  string registerMethod = 10;
+}
+
+message EmailVerifedRequest {
+  string ID = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string status = 4;
+}
+
+message OAuthUserRequest {
+  string orgID = 1;
+  string email = 2;
+  string firstName = 3;
+  string lastName = 4;
+  string profileImage = 5;
+  string registerMethod = 6;
+}
+
+service UserService {
+  rpc GetUser (UserRequest) returns (UserResponse);
+  rpc SetVerified (EmailVerifedRequest) returns (google.protobuf.Empty);
+  rpc ProcessOAuthUser (OAuthUserRequest) returns (UserResponse);
+}

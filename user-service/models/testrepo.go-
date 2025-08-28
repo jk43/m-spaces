@@ -1,0 +1,30 @@
+// package models
+
+// import (
+// 	"errors"
+
+// 	"go.mongodb.org/mongo-driver/bson/primitive"
+// 	"go.mongodb.org/mongo-driver/mongo"
+// )
+
+// type TestDBRepo struct{}
+
+// func (repo *TestDBRepo) GetUserByEmail(email string) *User {
+// 	user := &User{}
+// 	if email == "exist@test.com" {
+// 		user.Email = "xxxx@xxxx.com"
+// 		return user
+// 	}
+// 	return user
+// }
+
+// func (repo *TestDBRepo) InsertUser(u *User) (*mongo.InsertOneResult, error) {
+// 	if u.Email == "mongoerror@test.com" {
+// 		return nil, errors.New("Error")
+// 	}
+// 	objectId, _ := primitive.ObjectIDFromHex("63a5e4739837ae51dc1d574c")
+// 	ir := mongo.InsertOneResult{
+// 		InsertedID: objectId,
+// 	}
+// 	return &ir, nil
+// }

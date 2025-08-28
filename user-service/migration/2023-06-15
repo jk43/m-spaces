@@ -1,0 +1,1 @@
+db.users.createIndex({"metadata.organization.id": 1})

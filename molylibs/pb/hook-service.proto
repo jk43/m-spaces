@@ -1,0 +1,54 @@
+// This is the command used to generate the Go code from this proto file.
+// protoc -Ipb --go_out=./pb --go_opt=module=github.com/moly-space/molylibs/pb --go-grpc_out=./pb --go-grpc_opt=module=github.com/moly-space/molylibs/pb pb/hook-service.proto
+
+// The syntax for this file is proto3.
+syntax = "proto3";
+
+// The package for this file is hookservice.
+package hookservice;
+
+// The Go package for the generated code will be github.com/moly-space/molylibs/pb.
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+// HooksRequest is the request message for getting a list of hooks.
+// The service field represents the service (like broker-service) for which to get the hooks.
+message HookRequest {
+  string service = 1; // The service for which to get the hooks.
+}
+
+// Hook is the message representing a hook.
+message Hook {
+  string ID = 1; // The ID of the hook.
+  string tag = 2; // The method (like GET, POST) of the hook.
+  int32 priority = 3; // The priority of the hook.
+  string callbackType = 4; // The type of the callback for the hook.
+  string callbackAddr = 5; // The address of the callback for the hook.
+  string callbackFunc = 6; // The type of the callback for the hook. This seems to be a duplicate and might be an error.
+}
+
+message RunHookRequest {
+  string callbackFunc = 1; // The callback function to call after the hook is run.
+  string xhost = 2; // The X-Host to use for the hook.
+  bytes jwtClaims = 3; // The JWT to use for the hook.
+  bytes data = 4; // The data to send to the hook.
+}
+
+message RunHookResponse {
+  bytes data = 1; // The data returned by the hook.
+  bool error = 2; // Whether the hook was successful.
+}
+
+// HookListResponse is the response message for getting a list of hooks.
+// It contains a list of Hook messages.
+message HookListResponse {
+  repeated Hook hooks = 1; // The list of hooks.
+}
+
+
+// HookService is the service providing operations for hooks.
+service HookService {
+  // GetHooks is the RPC method for getting a list of hooks.
+  // It takes a HooksRequest and returns a HookListResponse.
+  rpc GetHooks (HookRequest) returns (HookListResponse);
+  rpc RunHook (RunHookRequest) returns (RunHookResponse);
+}

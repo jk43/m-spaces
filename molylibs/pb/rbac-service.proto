@@ -1,0 +1,33 @@
+//protoc -Ipb --go_out=./pb --go_opt=module=github.com/moly-space/molylibs/pb --go-grpc_out=./pb --go-grpc_opt=module=github.com/moly-space/molylibs/pb pb/rbac-service.proto
+
+syntax = "proto3";
+
+package rbacservice;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+message RBACRequest {
+  string host = 1;
+  string service = 2 ;
+  string modelCtx = 3;
+  string policyCtx = 4;
+}
+
+message RBACResponse {
+  repeated string policy = 1;
+}
+
+message ModelResponse {
+  string model = 1;
+}
+
+message ModelAndPolicyResponse {
+  string model = 1;
+  repeated string policy  = 2;
+}
+
+service RBACService {
+  rpc GetPolicy (RBACRequest) returns (RBACResponse);
+  rpc GetModel  (RBACRequest) returns (ModelResponse);
+  rpc GetModelAndPolicy (RBACRequest) returns (ModelAndPolicyResponse);
+}

@@ -1,0 +1,2 @@
+db.update_password_requests.createIndex( { "createdAt": 1 }, { expireAfterSeconds: 60 } )
+db.update_email_requests.createIndex( { "createdAt": 1 }, { expireAfterSeconds: 60 } )

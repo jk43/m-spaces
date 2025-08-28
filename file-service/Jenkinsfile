@@ -1,0 +1,86 @@
+pipeline {
+    agent any
+    environment {
+        DOCKER_IMG = "molyspace-file-service"
+        ENV_NAME = "${env.BRANCH_NAME == "main" ? "" : env.BRANCH_NAME}"
+        ENV_DIV = "${env.BRANCH_NAME == "main" ? "" : "."}"
+        ENV_SERV_NAME = "${env.BRANCH_NAME == "main" ? "" : env.BRANCH_NAME + '.'}"
+        TAG = "${ENV_NAME}${ENV_DIV}${env.BUILD_ID}"
+        imageName = "hub.hotdev.com:5555/${DOCKER_IMG}:${TAG}"
+        latestImage = "hub.hotdev.com:5555/${DOCKER_IMG}:${ENV_NAME}${ENV_DIV}latest"
+    }
+    tools { go '1.19' }
+    stages {
+        stage('Pull') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Compile Golang') {
+            steps {
+                sh 'go mod tidy'
+                sh 'env GOOS=linux CGO_ENABLED=0 go build -o app ./cmd/api'
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                script {
+                    dockerImage = docker.build(imageName, '-f Dockerfile .')
+                    latestDockerImage = docker.build(latestImage, '-f Dockerfile .')
+                }
+            }
+        }
+        stage('Docker push') {
+            steps {
+                script {
+                    docker.withRegistry('https://hub.hotdev.com:5555', "hotdev-docker") {
+                        dockerImage.push()
+                        latestDockerImage.push()
+                    }
+                }
+            }
+        }
+        stage('clean up build') {
+            steps {
+                script {
+                    cleanWs()
+                }
+            }
+        }
+        stage('k8s') {
+            steps {
+                script {
+                    git branch: 'main', credentialsId: 'Github-SSH', url: 'git@github.com:moly-space/k8s.git'
+                    sh 'git config --global user.email "jenkins@jktech.net"'
+                    sh 'git config --global user.name "jenkins"'
+                    sh "sed -i 's/${DOCKER_IMG}.*/${DOCKER_IMG}:${TAG}/g' ./services/${env.BRANCH_NAME}/workload.yaml" //change file name
+                    sh "git add ."
+                    sh "git commit -m 'app: ${DOCKER_IMG}, branch: ${env.BRANCH_NAME}, build: ${env.BUILD_ID}'"
+                
+                    sshagent(['Github-SSH']) {
+                      sh "git push origin main" //change this line
+                    }
+                }
+            }
+        }
+        stage('clean up') {
+            steps {
+                script {
+                    cleanWs()
+                }
+            }
+        }
+        stage('Sending slack') {
+            steps {
+                script {
+                    slackSend(channel: 'codepot', message: "@here :100: ${env.BRANCH_NAME} - ${DOCKER_IMG} build has been done!\nImage: ${imageName}\nJenkins: ${env.BUILD_URL}", teamDomain: 'Jktech-co', tokenCredentialId: 'Jktech-Slack')
+                }
+            }
+        }
+    }
+    post {
+        failure {
+            slackSend(channel: 'codepot', message: "@here :dizzy_face: ${env.BRANCH_NAME} - ${DOCKER_IMG} build failed!\nImage: ${imageName}\nJenkins: Jenkins: ${env.BUILD_URL}", teamDomain: 'Jktech-co', tokenCredentialId: 'Jktech-Slack') 
+        }
+    }
+}

@@ -1,0 +1,39 @@
+//python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. tree-service.proto
+//python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. --proto_path=pymolylibs.pb tree-service.proto
+//On *_grpc.py line 6 import molylibs.pb.tree_service_pb2 as tree__service__pb2
+syntax = "proto3";
+
+package treeservice;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+message TreeRequest {
+  string role = 2;
+  string orgID = 3;
+  string order = 4;
+  string slug = 5;
+}
+
+message TreeResponse {
+  bytes data = 1;
+}
+
+message BoolResponse {
+  bool data = 1;
+}
+
+service TreeService {
+  rpc GetAncestors (TreeRequest) returns (TreeResponse);
+  rpc GetRoot (TreeRequest) returns (TreeResponse);
+  rpc GetTree (TreeRequest) returns (TreeResponse);
+  rpc GetTreeAsArray (TreeRequest) returns (TreeResponse);
+  rpc GetOne (TreeRequest) returns (TreeResponse);
+  rpc Delete (TreeRequest) returns (TreeResponse);
+  rpc Update (TreeRequest) returns (TreeResponse);
+  rpc GetSibling (TreeRequest) returns (TreeResponse);
+  rpc GetChildren (TreeRequest) returns (TreeResponse);
+  rpc GetPath (TreeRequest) returns (TreeResponse);
+  rpc GetParent (TreeRequest) returns (TreeResponse);
+  rpc IsEnd (TreeRequest) returns (BoolResponse);
+}
+

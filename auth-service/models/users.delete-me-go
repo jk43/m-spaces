@@ -1,0 +1,21 @@
+package models
+
+import "gorm.io/gorm"
+
+type User struct {
+	Email       string `json:"email" validate:"required,email"`
+	ObjectID    string `json:"objectID" validate:"required"`
+	Credentials []Credentials
+	gorm.Model
+}
+
+// func (repo *DBRepo) GetUserByEmail(email string) (*User, error) {
+// 	user := User{}
+// 	err := repo.Mysql.
+// 		Preload("Credentials").
+// 		First(&user, "email = ?", email).Error
+// 	if err != nil {
+// 		return nil, err
+// 	}
+// 	return &user, nil
+// }

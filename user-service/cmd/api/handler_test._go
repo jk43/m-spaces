@@ -1,0 +1,43 @@
+package main
+
+import (
+	"io"
+	"net/http"
+	"net/http/httptest"
+	"strings"
+	"testing"
+)
+
+func Test_AddUser(t *testing.T) {
+
+	validatorTests := []struct {
+		name         string
+		body         string
+		expectedCode int
+	}{
+		{"exist email", `{"firstName": "John","lastName": "Doe","email": "exist@test.com","password": "test","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"missing first name", `{"firstName": "","lastName": "Doe","email": "test@test.com","password": "test","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"missing last name", `{"firstName": "John","lastName": "","email": "test@test.com","password": "test","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"missing email name", `{"firstName": "John","lastName": "Doe","email": "","password": "test","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"missing password name", `{"firstName": "John","lastName": "Doe","email": "test@test.com","password": "","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"missing confirm password name", `{"firstName": "John","lastName": "Doe","email": "test@test.com","password": "test","confirmPassword": ""}`, http.StatusBadRequest},
+		{"missing mismatches password name", `{"firstName": "John","lastName": "Doe","email": "test@test.com","password": "test1","confirmPassword": "test"}`, http.StatusBadRequest},
+		{"error InsertUser", `{"firstName": "John","lastName": "Doe","email": "mongoerror@test.com","password": "test","confirmPassword": "test"}`, http.StatusServiceUnavailable},
+		{"error GRPC", `{"firstName": "John","lastName": "Doe","email": "grpcerror@test.com","password": "test","confirmPassword": "test"}`, http.StatusServiceUnavailable},
+		{"OK", `{"firstName": "John","lastName": "Doe","email": "test@test.com","password": "test","confirmPassword": "test"}`, http.StatusOK},
+	}
+
+	for _, test := range validatorTests {
+		var reader io.Reader
+		reader = strings.NewReader(test.body)
+		req := httptest.NewRequest("POST", "/", reader)
+		rr := httptest.NewRecorder()
+		handler := http.HandlerFunc(app.AddUser)
+
+		handler.ServeHTTP(rr, req)
+
+		if rr.Code != test.expectedCode {
+			t.Errorf("%s expected code %d but got the %d", test.name, test.expectedCode, rr.Code)
+		}
+	}
+}

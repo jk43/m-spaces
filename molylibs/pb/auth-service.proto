@@ -1,0 +1,69 @@
+//protoc -Ipb --go_out=./pb --go_opt=module=github.com/moly-space/molylibs/pb --go-grpc_out=./pb --go-grpc_opt=module=github.com/moly-space/molylibs/pb pb/auth-service.proto
+
+syntax = "proto3";
+
+package authservice;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+import "google/protobuf/empty.proto";
+
+message CredentialsRequest {
+  string hashedPassword = 1 ;
+  string salt = 2 ;
+  string email = 3 ;
+  string userID = 4 ;
+  string firstName = 5;
+  string lastName = 6;
+  string orgID = 7;
+  bool invite = 8;
+  string senderName = 9;
+  string status = 10;
+
+}
+
+message VerifyPasswordRequest {
+  string userID = 1 ; //mongo objectID
+  string orgID = 2;
+  string password = 3 ;
+}
+
+message PasswordUpdateRequest {
+  string userID = 1;
+  string password = 2;
+  string salt = 3;
+}
+
+message CredentialsResponse {
+  int32 id = 1;
+}
+
+message VerifyPasswordResponse {
+  bool isVerified = 1;
+}
+
+message UpdateEmailRequest {
+  string userID = 1 ;
+  string email = 2 ;
+}
+
+message UpdateNameRequest {
+  string userID = 1 ;
+  string firstName = 2 ;
+  string lastName = 3 ;
+}
+
+message DeleteCredentialsRequest {
+  string userID = 1 ;
+}
+
+service AuthService {
+  rpc SaveCredentials (CredentialsRequest) returns (CredentialsResponse);
+  rpc UpdateCredentials (CredentialsRequest) returns  (google.protobuf.Empty);
+  rpc DeleteCredentials (DeleteCredentialsRequest) returns  (google.protobuf.Empty);
+  rpc VerifyPassword (VerifyPasswordRequest) returns  (VerifyPasswordResponse);
+  rpc UpdatePassword (PasswordUpdateRequest) returns  (google.protobuf.Empty);
+  rpc UpdateEmail (UpdateEmailRequest) returns  (google.protobuf.Empty);
+  rpc UpdateName (UpdateNameRequest) returns  (google.protobuf.Empty);
+}
+

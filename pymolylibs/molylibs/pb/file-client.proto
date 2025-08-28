@@ -1,0 +1,51 @@
+//python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. file-client.proto
+//On *_grpc.py line 6 import molylibs.pb.file_service_pb2 as file__service__pb2
+syntax = "proto3";
+
+package fileclient;
+
+option go_package = "github.com/moly-space/molylibs/pb" ;
+
+//import "google/protobuf/empty.proto";
+
+message FileRulesRequest {
+  string userID = 1 ;
+  string orgID = 2;
+  string serviceCtx = 3;
+}
+
+message FileRulesResponse {
+  string s3Dir = 1 ; 
+  int64 maxFileSize = 2;
+  repeated string allowedFileTypes = 3; //video, audio, imageg etc..
+  repeated string allowedContentTypes = 4; //image/jpeg, video/mp4 etc..
+}
+
+message FileInfo {
+    string originalFileName = 1;
+    string fileName = 2;
+    string s3Key = 3;
+    string contentType = 4;
+    int64 size = 5;
+    string formKey = 6;
+}
+
+message FileSaveDataRequest {
+  string userID = 1 ;
+  string orgID = 2;
+  string serviceCtx = 4;
+  string ip = 5;
+  string batchID = 6;
+  string formID = 7;
+  repeated FileInfo fileInfos = 8;
+}
+
+message FileSaveDataResponse {
+  bytes output = 1;
+}
+
+service FileClient {
+  rpc GetFileRules (FileRulesRequest) returns (FileRulesResponse);
+  rpc SaveFileData (FileSaveDataRequest) returns  (FileSaveDataResponse);
+}
+

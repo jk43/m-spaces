@@ -1,0 +1,12 @@
+package utils
+
+import "testing"
+
+func Test_Password(t *testing.T) {
+	password := "password"
+	hashedPassword, _ := HashPassword(password)
+	ok := CheckPasswordHash(password, hashedPassword)
+	if !ok {
+		t.Error("password and hashedPassword not check")
+	}
+}

@@ -1,0 +1,407 @@
+.tiptap-content {
+  line-height: 1.6;
+}
+
+.tiptap-content p {
+  margin: 0.5em 0;
+}
+
+.tiptap-content h1,
+.tiptap-content h2,
+.tiptap-content h3,
+.tiptap-content h4,
+.tiptap-content h5,
+.tiptap-content h6 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+}
+
+.tiptap-content h1 {
+  font-size: 2em;
+}
+
+.tiptap-content h2 {
+  font-size: 1.5em;
+}
+
+.tiptap-content h3 {
+  font-size: 1.17em;
+}
+
+.tiptap-content h4 {
+  font-size: 1em;
+}
+
+.tiptap-content h5 {
+  font-size: 0.83em;
+}
+
+.tiptap-content h6 {
+  font-size: 0.67em;
+}
+
+.tiptap-content ul,
+.tiptap-content ol {
+  padding-left: 20px;
+  margin: 0.5em 0;
+}
+
+.tiptap-content blockquote {
+  border-left: 3px solid #ddd;
+  margin: 0.5em 0;
+  padding-left: 16px;
+  color: #666;
+}
+
+.tiptap-content code {
+  background-color: #f1f3f4;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.tiptap-content pre {
+  background: #0d0d0d;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-family: 'JetBrainsMono', monospace;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+}
+
+.tiptap-content pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.tiptap-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.tiptap-content a {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+.tiptap-content table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.tiptap-content table td,
+.tiptap-content table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tiptap-content table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.tiptap-content .task-list-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.25em 0;
+}
+
+.tiptap-content .task-list-item input[type='checkbox'] {
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+.tiptap-content .task-list-item p {
+  margin: 0;
+}
+
+/* Tiptap inner editor */
+.ProseMirror {
+  padding: 16px;
+  outline: none;
+  min-height: 200px;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.ProseMirror img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.ProseMirror a {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 20px;
+}
+
+.ProseMirror blockquote {
+  border-left: 3px solid #ddd;
+  margin: 0;
+  padding-left: 16px;
+  color: #666;
+}
+
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3,
+.ProseMirror h4,
+.ProseMirror h5,
+.ProseMirror h6 {
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+.ProseMirror h1 {
+  font-size: 2em;
+}
+
+.ProseMirror h2 {
+  font-size: 1.5em;
+}
+
+.ProseMirror h3 {
+  font-size: 1.17em;
+}
+
+.ProseMirror h4 {
+  font-size: 1em;
+}
+
+.ProseMirror h5 {
+  font-size: 0.83em;
+}
+
+.ProseMirror h6 {
+  font-size: 0.67em;
+}
+
+.ProseMirror table {
+  border-collapse: collapse;
+  margin: 0;
+  overflow: hidden;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.ProseMirror table td,
+.ProseMirror table th {
+  border: 2px solid #ced4da;
+  box-sizing: border-box;
+  min-width: 1em;
+  padding: 3px 5px;
+  position: relative;
+  vertical-align: top;
+}
+
+.ProseMirror table th {
+  background-color: #f1f3f4;
+  font-weight: bold;
+}
+
+.ProseMirror table .selectedCell:after {
+  background: rgba(200, 200, 255, 0.4);
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.ProseMirror table .column-resize-handle {
+  background-color: #adf;
+  bottom: -2px;
+  position: absolute;
+  right: -2px;
+  pointer-events: none;
+  top: 0;
+  width: 4px;
+}
+
+.ProseMirror table p {
+  margin: 0;
+}
+
+.ProseMirror code {
+  background-color: #f1f3f4;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+.ProseMirror pre {
+  background: #0d0d0d;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-family: 'JetBrainsMono', monospace;
+  padding: 0.75rem 1rem;
+}
+
+.ProseMirror pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.tiptap {
+  :first-child {
+    margin-top: 0;
+  }
+
+  /* List styles */
+  ul,
+  ol {
+    padding: 0 1rem;
+    margin: 1.25rem 1rem 1.25rem 0.4rem;
+
+    li p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+/* TaskList 스타일 */
+ul[data-type='taskList'] {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+ul[data-type='taskList'] li {
+  align-items: center;
+  display: flex;
+  margin: 0.25em 0;
+}
+
+ul[data-type='taskList'] li > label {
+  flex: 0 0 auto;
+  margin-right: 0.5rem;
+  user-select: none;
+  margin-top: 0;
+}
+
+ul[data-type='taskList'] li > div {
+  flex: 1 1 auto;
+}
+
+ul[data-type='taskList'] input[type='checkbox'] {
+  cursor: pointer;
+  margin: 0;
+}
+
+ul[data-type='taskList'] ul[data-type='taskList'] {
+  margin: 0;
+}
+
+/* TaskList 내부의 p 태그 스타일 */
+ul[data-type='taskList'] li p {
+  margin: 0;
+  display: inline;
+}
+
+/* TaskList 내부의 다른 요소들도 인라인으로 */
+ul[data-type='taskList'] li > div > * {
+  display: inline;
+}
+
+/* TaskList 내부의 첫 번째 요소만 인라인 블록으로 */
+ul[data-type='taskList'] li > div > *:first-child {
+  display: inline-block;
+}
+
+/* Code highlighting styles */
+.tiptap-content pre,
+.ProseMirror pre {
+  background: #0d0d0d;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-family: 'JetBrainsMono', 'Fira Code', 'Consolas', monospace;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+  position: relative;
+}
+
+.tiptap-content pre code,
+.ProseMirror pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+  font-family: inherit;
+}
+
+.download-file {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #1976d2;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.youtube-video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 비율 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* image center */
+:deep(.ProseMirror img) {
+  display: block;
+  margin: 0 auto;
+}
+
+/* more specific */
+:deep(.ProseMirror img[style*="margin: 0px auto"]) {
+  display: block !important;
+}

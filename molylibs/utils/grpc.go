@@ -1,0 +1,7 @@
+package utils
+
+const (
+	RBAC_ADDR = "RBAC_SERVICE_ADDR"
+	AUTH_ADDR = "AUTH_SERVICE_ADDR"
+	USER_ADDR = "USER_SERVICE_ADDR"
+)

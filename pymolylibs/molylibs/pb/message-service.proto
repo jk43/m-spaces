@@ -1,0 +1,56 @@
+//python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. message-service.proto
+//On *_grpc.py line 6 import molylibs.pb.message_service_pb2 as message__service__pb2
+
+syntax = "proto3";
+
+package messageservice;
+
+option go_package = "github.com/moly-space/molylibs/pb";
+
+enum MessageType {
+  NONE_TYPE = 0;
+  TEXT = 1;
+  JSON = 2;
+  XML = 3;
+}
+
+message MessageRequest {
+  string channel = 1;
+  string service = 2; // service is the service name, math-service, user-service, etc
+  string from = 3; // websocket uuid
+  string to = 4; // websocket uuid
+  MessageType messageType = 5;
+  bytes message = 6;
+}
+
+enum ProgressCommand {
+  NONE_COMMAND = 0;
+  ADD = 1;
+  UPDATE = 2;
+  DONE = 3;
+}
+
+message ProgressMessage {
+  string context = 1;
+  int32 progress = 2;
+}
+
+message ProgressMessageRequest {
+  string channel = 1;
+  string service = 2; 
+  string to = 3;
+  string id = 4; // python id()
+  string progressCtx = 5; // ex: "math-service:math, file-service:file"
+  ProgressCommand command = 6;
+  ProgressMessage progress = 7;
+}
+
+message MessageResponse {
+  bool success = 1;
+}
+
+service MessageService {
+  rpc SendMessage (MessageRequest) returns (MessageResponse);
+  rpc Broadcast (MessageRequest) returns (MessageResponse);
+  rpc SendProgress (ProgressMessageRequest) returns (MessageResponse);
+}

@@ -1,0 +1,1392 @@
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "4c03f24f8a77d5988a2f5e2759780fa3"
+formID: "66da1b21ba2ea810bd79bc7a"
+fileInfos {
+  originalFileName: "a550df34cea1e106d2f997dec65b083b.png"
+  fileName: "16dc1bbe8c08e80b2151e2f15369ddd2.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/16dc1bbe8c08e80b2151e2f15369ddd2.png"
+  size: 27184
+  formKey: "file"
+}
+
+error s3Key
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "9be353c08dc36af97825f046e6f730e1"
+formID: "66da1c9bae1d57b0af09867b"
+fileInfos {
+  originalFileName: "c040e1b6faad77469b13c0f3480c29a4.png"
+  fileName: "2935df92fe23c4350907a851e2df0495.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/2935df92fe23c4350907a851e2df0495.png"
+  size: 16345
+  formKey: "file"
+}
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c568360b6a044cdf4834e4feccf9c67a"
+formID: "66da1d00ea02aeb2fd3b422d"
+fileInfos {
+  originalFileName: "283beecfdcd8d6d325c6c498cd7b3bf3.png"
+  fileName: "bd6e8d5678b1f62ed165576fbd03ac9a.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/bd6e8d5678b1f62ed165576fbd03ac9a.png"
+  size: 27113
+  formKey: "file"
+}
+
+error 'FileSaveDataRequest' object is not subscriptable
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "7460e8a10fd06ff4539d29330c685496"
+formID: "66da1d4a1f2da499200079ae"
+fileInfos {
+  originalFileName: "2987fcdb05fb2f5f09a2ba2ebee25860.png"
+  fileName: "55cb58aba74a095935b0cb6ec125ec48.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/55cb58aba74a095935b0cb6ec125ec48.png"
+  size: 16813
+  formKey: "file"
+}
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "daa97988af1e79b0a5bf784d8e1cf70f"
+formID: "66da1da3ab827ac0011b0c94"
+fileInfos {
+  originalFileName: "4fc00a4a79a9cc07cd67e1216c754d98.png"
+  fileName: "c3c6054cc52ef2f90bcb7f196cadab31.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c3c6054cc52ef2f90bcb7f196cadab31.png"
+  size: 14018
+  formKey: "file"
+}
+
+request.fileInfos [originalFileName: "4fc00a4a79a9cc07cd67e1216c754d98.png"
+fileName: "c3c6054cc52ef2f90bcb7f196cadab31.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c3c6054cc52ef2f90bcb7f196cadab31.png"
+size: 14018
+formKey: "file"
+]
+error 'FileSaveDataRequest' object is not subscriptable
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "54fe5b609bd6afdc9d56511fde389fb8"
+formID: "66da1def28c9ff713235ab1e"
+fileInfos {
+  originalFileName: "89484873f15562281fcd51db89af70ef.png"
+  fileName: "c688907c57687edbe95f6f5e1590be65.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c688907c57687edbe95f6f5e1590be65.png"
+  size: 11068
+  formKey: "file"
+}
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "d635e78b2b27fcbd09171093ca960bed"
+formID: "66da1e402011725d06121972"
+fileInfos {
+  originalFileName: "f18480ec98df1c390486b9c21921f8cb.png"
+  fileName: "19cda1b6fb9595d0e4c51538ed0c8d00.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/19cda1b6fb9595d0e4c51538ed0c8d00.png"
+  size: 17275
+  formKey: "file"
+}
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "d0888259f47e84c156d8082b782929b7"
+formID: "66da21969203928a6b8c6271"
+fileInfos {
+  originalFileName: "a61c88f6b024f6ed704a6ef9d1ce9e51.png"
+  fileName: "8adceb0cebca5774508da35a0d345c52.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/8adceb0cebca5774508da35a0d345c52.png"
+  size: 18140
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "a61c88f6b024f6ed704a6ef9d1ce9e51.png"
+fileName: "8adceb0cebca5774508da35a0d345c52.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/8adceb0cebca5774508da35a0d345c52.png"
+size: 18140
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "da327c50eb6234847d64128def9f2e51"
+formID: "66da21c69203928a6b8c6273"
+fileInfos {
+  originalFileName: "e1d7e9670dbd0b90b37f16356a029511.png"
+  fileName: "020ec4965a72931966c759d0d39be5be.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/020ec4965a72931966c759d0d39be5be.png"
+  size: 20654
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "e1d7e9670dbd0b90b37f16356a029511.png"
+fileName: "020ec4965a72931966c759d0d39be5be.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/020ec4965a72931966c759d0d39be5be.png"
+size: 20654
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "987623de57455fad078ac75f89634bf2"
+formID: "66da3a189203928a6b8c6277"
+fileInfos {
+  originalFileName: "beb0a219311609c3338b6cd1759be9a8.png"
+  fileName: "176a93fbdac8cce90ed8efab27f5d0ec.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/176a93fbdac8cce90ed8efab27f5d0ec.png"
+  size: 23841
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "beb0a219311609c3338b6cd1759be9a8.png"
+fileName: "176a93fbdac8cce90ed8efab27f5d0ec.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/176a93fbdac8cce90ed8efab27f5d0ec.png"
+size: 23841
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "01e34c613aebc3fd03343f201539c3a9"
+formID: "66da3a2f9203928a6b8c6279"
+fileInfos {
+  originalFileName: "3a61964bb2d45b494e0e5feb2c754152.png"
+  fileName: "928c43391e5859e1670d40edf8c6ee65.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/928c43391e5859e1670d40edf8c6ee65.png"
+  size: 23177
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "3a61964bb2d45b494e0e5feb2c754152.png"
+fileName: "928c43391e5859e1670d40edf8c6ee65.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/928c43391e5859e1670d40edf8c6ee65.png"
+size: 23177
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "8c5cf6894b76edff389c7f0f54605812"
+formID: "66dacb2f9203928a6b8c627b"
+fileInfos {
+  originalFileName: "8d7022a0d5db30a543b2028f92666537.png"
+  fileName: "edb0e76bf4c5f01927b569ba4d52af4c.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/edb0e76bf4c5f01927b569ba4d52af4c.png"
+  size: 15648
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "8d7022a0d5db30a543b2028f92666537.png"
+fileName: "edb0e76bf4c5f01927b569ba4d52af4c.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/edb0e76bf4c5f01927b569ba4d52af4c.png"
+size: 15648
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "1ddddd89fb008fd92ef38b96db0ffdef"
+formID: "66dc803b9203928a6b8c6281"
+fileInfos {
+  originalFileName: "3fcd9f314f27e99fe4dd58179210c59c.png"
+  fileName: "554381e5bff301bd709830dc00b1f0ab.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/554381e5bff301bd709830dc00b1f0ab.png"
+  size: 14164
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "3fcd9f314f27e99fe4dd58179210c59c.png"
+fileName: "554381e5bff301bd709830dc00b1f0ab.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/554381e5bff301bd709830dc00b1f0ab.png"
+size: 14164
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "ed752f9804c37ea274939ab05756c9ec"
+formID: "66dc81b9410964d09b04f1f4"
+fileInfos {
+  originalFileName: "bb91128f1495c41ee79bef6ff5961602.png"
+  fileName: "84cc25dc2bdcc060f2f7af43d48135f7.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/84cc25dc2bdcc060f2f7af43d48135f7.png"
+  size: 16879
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "bb91128f1495c41ee79bef6ff5961602.png"
+fileName: "84cc25dc2bdcc060f2f7af43d48135f7.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/84cc25dc2bdcc060f2f7af43d48135f7.png"
+size: 16879
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "dcb7f21a7111a10944614b13fff83bd9"
+formID: "66dc81cf410964d09b04f1f6"
+fileInfos {
+  originalFileName: "640dc6ca2cbcd46bbffa393f3de95f1b.png"
+  fileName: "b44a5bbb30b35aca76388f9903b0be7f.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b44a5bbb30b35aca76388f9903b0be7f.png"
+  size: 14638
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "640dc6ca2cbcd46bbffa393f3de95f1b.png"
+fileName: "b44a5bbb30b35aca76388f9903b0be7f.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b44a5bbb30b35aca76388f9903b0be7f.png"
+size: 14638
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "454d2f55794800677cbadad6f54a4274"
+formID: "66dc8207410964d09b04f1fb"
+fileInfos {
+  originalFileName: "2872801e1570c88dcaff9cbbf65757e4.png"
+  fileName: "24c6e1191ac226d6ebc1c9a0275434fe.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/24c6e1191ac226d6ebc1c9a0275434fe.png"
+  size: 18893
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "2872801e1570c88dcaff9cbbf65757e4.png"
+fileName: "24c6e1191ac226d6ebc1c9a0275434fe.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/24c6e1191ac226d6ebc1c9a0275434fe.png"
+size: 18893
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f75f5f3839b4e5e05e5aa0d55a32c524"
+formID: "66df4e29967b381f51c85627"
+fileInfos {
+  originalFileName: "6332d82c1bea6d1236d5791ec0e27ccc.png"
+  fileName: "f1fdfb32daf3ea6f0f4b4e55777a21a3.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f1fdfb32daf3ea6f0f4b4e55777a21a3.png"
+  size: 8834
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "6332d82c1bea6d1236d5791ec0e27ccc.png"
+fileName: "f1fdfb32daf3ea6f0f4b4e55777a21a3.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f1fdfb32daf3ea6f0f4b4e55777a21a3.png"
+size: 8834
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "4a56a0dd1ea884acf493d9a3cbc41d66"
+formID: "670ae59292679c5d4d91141d"
+fileInfos {
+  originalFileName: "cd264d5b5cb5e8423447c484aa173619.png"
+  fileName: "9fd6ec1182a0e97bd98950bf74404446.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9fd6ec1182a0e97bd98950bf74404446.png"
+  size: 11983
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "cd264d5b5cb5e8423447c484aa173619.png"
+fileName: "9fd6ec1182a0e97bd98950bf74404446.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9fd6ec1182a0e97bd98950bf74404446.png"
+size: 11983
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "e3fcb286045a59a622a0064e6f4fee58"
+formID: "670ae5ca92679c5d4d91141e"
+fileInfos {
+  originalFileName: "facf3af3632018f865003a9473eaad5a.png"
+  fileName: "935d5aa224b1211aec5a98f5126c6d79.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/935d5aa224b1211aec5a98f5126c6d79.png"
+  size: 22043
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "facf3af3632018f865003a9473eaad5a.png"
+fileName: "935d5aa224b1211aec5a98f5126c6d79.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/935d5aa224b1211aec5a98f5126c6d79.png"
+size: 22043
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "7104b96817839ed07f01aef7a04c531b"
+formID: "671d3c40b204656db1a2ebf2"
+fileInfos {
+  originalFileName: "8d8ab64c4c95d9395575c753011c6110.png"
+  fileName: "bd9acd319feaf2a1713feeb1488993fd.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/bd9acd319feaf2a1713feeb1488993fd.png"
+  size: 21017
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "8d8ab64c4c95d9395575c753011c6110.png"
+fileName: "bd9acd319feaf2a1713feeb1488993fd.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/bd9acd319feaf2a1713feeb1488993fd.png"
+size: 21017
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f63d042e0a9f83f352fba0e8896d6170"
+formID: "671d3cf2b204656db1a2ebf3"
+fileInfos {
+  originalFileName: "eceafeeffced183c2c7a955e8ece7e05.png"
+  fileName: "42cfcb791a2f871c2b32ddd3153543b9.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/42cfcb791a2f871c2b32ddd3153543b9.png"
+  size: 105435
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "eceafeeffced183c2c7a955e8ece7e05.png"
+fileName: "42cfcb791a2f871c2b32ddd3153543b9.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/42cfcb791a2f871c2b32ddd3153543b9.png"
+size: 105435
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "b18b245e60b96d5b78e0d994d0d4ab5c"
+formID: "671d3cfbb204656db1a2ebf4"
+fileInfos {
+  originalFileName: "5149ab5248aae949e5a51605479ed3ef.png"
+  fileName: "db25cab9dd20daf83adae47e39dba98b.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/db25cab9dd20daf83adae47e39dba98b.png"
+  size: 108982
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "5149ab5248aae949e5a51605479ed3ef.png"
+fileName: "db25cab9dd20daf83adae47e39dba98b.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/db25cab9dd20daf83adae47e39dba98b.png"
+size: 108982
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c39cb6cf26f7da291cbf0be20bca9108"
+formID: "671d3db0b204656db1a2ebf9"
+fileInfos {
+  originalFileName: "c1a297df975bcbc92f11fb8cfaa9eff0.png"
+  fileName: "ed7753b05f12954cac845aea0a36f83c.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ed7753b05f12954cac845aea0a36f83c.png"
+  size: 75295
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "c1a297df975bcbc92f11fb8cfaa9eff0.png"
+fileName: "ed7753b05f12954cac845aea0a36f83c.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ed7753b05f12954cac845aea0a36f83c.png"
+size: 75295
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f059aa7fcb6e596294114d30575505f7"
+formID: "671d3f16b204656db1a2ebfe"
+fileInfos {
+  originalFileName: "da4881284015cb2ff0df0dafefc096d4.png"
+  fileName: "39cf6c4db4cf1d55ff7ad60138c88dd7.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/39cf6c4db4cf1d55ff7ad60138c88dd7.png"
+  size: 16525
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "da4881284015cb2ff0df0dafefc096d4.png"
+fileName: "39cf6c4db4cf1d55ff7ad60138c88dd7.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/39cf6c4db4cf1d55ff7ad60138c88dd7.png"
+size: 16525
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "af73bd31a187839c155fe30ebf1b1f80"
+formID: "671d3f1db204656db1a2ebff"
+fileInfos {
+  originalFileName: "37aaeb3bdf071cdca739daf63b3ba167.png"
+  fileName: "49936d5b19f726f2d159927f15029f3c.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/49936d5b19f726f2d159927f15029f3c.png"
+  size: 20252
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "37aaeb3bdf071cdca739daf63b3ba167.png"
+fileName: "49936d5b19f726f2d159927f15029f3c.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/49936d5b19f726f2d159927f15029f3c.png"
+size: 20252
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c1d3b8fcb05d5c9c3f89989697ee7a78"
+formID: "671d3f24b204656db1a2ec00"
+fileInfos {
+  originalFileName: "9f15f586de531716cf6b0fbb089a61ae.png"
+  fileName: "1c247c549719cdec19110fa4d88fa820.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/1c247c549719cdec19110fa4d88fa820.png"
+  size: 21058
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "9f15f586de531716cf6b0fbb089a61ae.png"
+fileName: "1c247c549719cdec19110fa4d88fa820.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/1c247c549719cdec19110fa4d88fa820.png"
+size: 21058
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c341b5f9c67cc01eea38e7e592d702d9"
+formID: "671d406594ab25147d03f909"
+fileInfos {
+  originalFileName: "c74eecaf4dd48765fcce04aeebe338cb.png"
+  fileName: "6a75c1ae5ed7f6d364fcbfec1daacbd5.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/6a75c1ae5ed7f6d364fcbfec1daacbd5.png"
+  size: 53966
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "c74eecaf4dd48765fcce04aeebe338cb.png"
+fileName: "6a75c1ae5ed7f6d364fcbfec1daacbd5.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/6a75c1ae5ed7f6d364fcbfec1daacbd5.png"
+size: 53966
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "62d6bcbd8c5bcdcf5f1aafe0259f3b3f"
+formID: "671d407294ab25147d03f90a"
+fileInfos {
+  originalFileName: "222abbf84a367e58ed5173405ff201d2.png"
+  fileName: "2276790addc20614564e9b01e820df10.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/2276790addc20614564e9b01e820df10.png"
+  size: 50397
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "222abbf84a367e58ed5173405ff201d2.png"
+fileName: "2276790addc20614564e9b01e820df10.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/2276790addc20614564e9b01e820df10.png"
+size: 50397
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "07e1bfd4340c83888ae73a9dd5d6b27c"
+formID: "671d439fda0d882ca2aeba31"
+fileInfos {
+  originalFileName: "5d1097dc86dea14416024d2754c882ca.png"
+  fileName: "d00e55bdee7e3a5384b692757f0e1664.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/d00e55bdee7e3a5384b692757f0e1664.png"
+  size: 21188
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "5d1097dc86dea14416024d2754c882ca.png"
+fileName: "d00e55bdee7e3a5384b692757f0e1664.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/d00e55bdee7e3a5384b692757f0e1664.png"
+size: 21188
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "34bab5c0aef055e31ecfa1ee367bc723"
+formID: "671d43cdda0d882ca2aeba33"
+fileInfos {
+  originalFileName: "646fe1dd94763efd1d361ceccc3d921b.png"
+  fileName: "b829c02ee44000daa57f2bd582b2c4bf.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b829c02ee44000daa57f2bd582b2c4bf.png"
+  size: 19924
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "646fe1dd94763efd1d361ceccc3d921b.png"
+fileName: "b829c02ee44000daa57f2bd582b2c4bf.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b829c02ee44000daa57f2bd582b2c4bf.png"
+size: 19924
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "ed8cbbed6cabef7c9be44ea6fd3e2975"
+formID: "671d455157f2f1938e809942"
+fileInfos {
+  originalFileName: "554d5274f11c62ec7673d147b8d366b9.png"
+  fileName: "114171f28cb2b33befbf96710ff1c6d1.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/114171f28cb2b33befbf96710ff1c6d1.png"
+  size: 88534
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "554d5274f11c62ec7673d147b8d366b9.png"
+fileName: "114171f28cb2b33befbf96710ff1c6d1.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/114171f28cb2b33befbf96710ff1c6d1.png"
+size: 88534
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "d859ab2b5f47888ce810a8ddce3f89af"
+formID: "671d455e57f2f1938e809943"
+fileInfos {
+  originalFileName: "0b0f810fc51825b68eb571d35dd3c399.png"
+  fileName: "7056026fff3f4c37f02c34441873205b.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/7056026fff3f4c37f02c34441873205b.png"
+  size: 65799
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "0b0f810fc51825b68eb571d35dd3c399.png"
+fileName: "7056026fff3f4c37f02c34441873205b.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/7056026fff3f4c37f02c34441873205b.png"
+size: 65799
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "07bc798e31239433ef8005844d46ccbe"
+formID: "671d456557f2f1938e809944"
+fileInfos {
+  originalFileName: "bf4ee7987175fbe86c8a3cf3a4aa2b25.png"
+  fileName: "beb86c93bb4b4fd0b097ef7bf9c73c75.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/beb86c93bb4b4fd0b097ef7bf9c73c75.png"
+  size: 131055
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "bf4ee7987175fbe86c8a3cf3a4aa2b25.png"
+fileName: "beb86c93bb4b4fd0b097ef7bf9c73c75.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/beb86c93bb4b4fd0b097ef7bf9c73c75.png"
+size: 131055
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "4e881a0594a86cc692e68ee887e0a758"
+formID: "671d4585a4618b84fb95638a"
+fileInfos {
+  originalFileName: "cc327a91dcb9e24c6ba8ac5c96b667da.png"
+  fileName: "b9c8faa9f355287dcf46b40739f7de55.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b9c8faa9f355287dcf46b40739f7de55.png"
+  size: 64882
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "cc327a91dcb9e24c6ba8ac5c96b667da.png"
+fileName: "b9c8faa9f355287dcf46b40739f7de55.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b9c8faa9f355287dcf46b40739f7de55.png"
+size: 64882
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "42ec41a43bc76b123ed0ef419b9a817d"
+formID: "671d45f5a4618b84fb956390"
+fileInfos {
+  originalFileName: "501962d769655132d1a8dee9586980eb.png"
+  fileName: "7811f03a9a605a3aab8147f2f08d587b.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/7811f03a9a605a3aab8147f2f08d587b.png"
+  size: 16960
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "501962d769655132d1a8dee9586980eb.png"
+fileName: "7811f03a9a605a3aab8147f2f08d587b.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/7811f03a9a605a3aab8147f2f08d587b.png"
+size: 16960
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "006dcebd2b72f2b30f5ad1df45e42a53"
+formID: "671d45ffa4618b84fb956391"
+fileInfos {
+  originalFileName: "b26eb6459279f439c4788af3c28cbd8c.png"
+  fileName: "66dc389ede419cfa6ce90e4e5b9701a2.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/66dc389ede419cfa6ce90e4e5b9701a2.png"
+  size: 25547
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "b26eb6459279f439c4788af3c28cbd8c.png"
+fileName: "66dc389ede419cfa6ce90e4e5b9701a2.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/66dc389ede419cfa6ce90e4e5b9701a2.png"
+size: 25547
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "590d8a2fe7f278d1313d8cc10efe1045"
+formID: "671d4605a4618b84fb956392"
+fileInfos {
+  originalFileName: "d8fa850714b6b7a3e28f233d6db1529f.png"
+  fileName: "3eb810f6d46203167ade229c37a9ebe7.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/3eb810f6d46203167ade229c37a9ebe7.png"
+  size: 27390
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "d8fa850714b6b7a3e28f233d6db1529f.png"
+fileName: "3eb810f6d46203167ade229c37a9ebe7.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/3eb810f6d46203167ade229c37a9ebe7.png"
+size: 27390
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "dd9ec60999b67a9c1b7d77aeb7758dc0"
+formID: "671d466fce870b0faab0b764"
+fileInfos {
+  originalFileName: "e60e2fd27b8bcca1062eb5077e7a9c53.png"
+  fileName: "636b1b1b7247b787c6074607d5eb33ce.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/636b1b1b7247b787c6074607d5eb33ce.png"
+  size: 89056
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "e60e2fd27b8bcca1062eb5077e7a9c53.png"
+fileName: "636b1b1b7247b787c6074607d5eb33ce.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/636b1b1b7247b787c6074607d5eb33ce.png"
+size: 89056
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "96ff108944e9cbde8554241f539a8c8a"
+formID: "671d467cce870b0faab0b765"
+fileInfos {
+  originalFileName: "18c0ec6d33ad1e2dd7ee7f07ba12f839.png"
+  fileName: "9d1d5200ce8d845373bcee8bcc0df4df.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9d1d5200ce8d845373bcee8bcc0df4df.png"
+  size: 228354
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "18c0ec6d33ad1e2dd7ee7f07ba12f839.png"
+fileName: "9d1d5200ce8d845373bcee8bcc0df4df.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9d1d5200ce8d845373bcee8bcc0df4df.png"
+size: 228354
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "acb4eca0ad75f032ea87536531c2e6c5"
+formID: "671d468ece870b0faab0b766"
+fileInfos {
+  originalFileName: "2517c43b5c49ecab6908432a5fc77c87.png"
+  fileName: "c1462097d01272fde8b94c16e6025a40.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c1462097d01272fde8b94c16e6025a40.png"
+  size: 157484
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "2517c43b5c49ecab6908432a5fc77c87.png"
+fileName: "c1462097d01272fde8b94c16e6025a40.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c1462097d01272fde8b94c16e6025a40.png"
+size: 157484
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "71f137e6e3d8e4bc7d7ca76379f49577"
+formID: "671d4bc99521c61ebe656848"
+fileInfos {
+  originalFileName: "bcf531360c070f6193477ee6e0c9261e.png"
+  fileName: "593667b3b7a5e0eaf008b91a2df6f5af.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/593667b3b7a5e0eaf008b91a2df6f5af.png"
+  size: 39103
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "bcf531360c070f6193477ee6e0c9261e.png"
+fileName: "593667b3b7a5e0eaf008b91a2df6f5af.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/593667b3b7a5e0eaf008b91a2df6f5af.png"
+size: 39103
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "fb222acdb98b5b3e8a8734fd31d7c0d7"
+formID: "671d4bd79521c61ebe656849"
+fileInfos {
+  originalFileName: "927615c63cba9b9079cae88ce46eeb57.png"
+  fileName: "76e569c4a86a4c528fafb97fd4b8a0f7.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/76e569c4a86a4c528fafb97fd4b8a0f7.png"
+  size: 11950
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "927615c63cba9b9079cae88ce46eeb57.png"
+fileName: "76e569c4a86a4c528fafb97fd4b8a0f7.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/76e569c4a86a4c528fafb97fd4b8a0f7.png"
+size: 11950
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f0d07a17ab1d32fa9f291da0d20d38a3"
+formID: "671d4c409521c61ebe65684d"
+fileInfos {
+  originalFileName: "8f696741634d1b48a52d2810ce263df1.png"
+  fileName: "ea703d20a4d7ce20c519f70adf5e45e3.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ea703d20a4d7ce20c519f70adf5e45e3.png"
+  size: 56260
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "8f696741634d1b48a52d2810ce263df1.png"
+fileName: "ea703d20a4d7ce20c519f70adf5e45e3.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ea703d20a4d7ce20c519f70adf5e45e3.png"
+size: 56260
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "ace6da902333181474409e7ec146f20d"
+formID: "671d4c4d9521c61ebe65684e"
+fileInfos {
+  originalFileName: "17c9cbd31c047446c78c17181c87c3e4.png"
+  fileName: "a64b9748e5ddaaaf42675eec7cfebeb9.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a64b9748e5ddaaaf42675eec7cfebeb9.png"
+  size: 11109
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "17c9cbd31c047446c78c17181c87c3e4.png"
+fileName: "a64b9748e5ddaaaf42675eec7cfebeb9.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a64b9748e5ddaaaf42675eec7cfebeb9.png"
+size: 11109
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f43746aa76e2f8e1b0f9ec761869886b"
+formID: "671d4c569521c61ebe65684f"
+fileInfos {
+  originalFileName: "cdca9085796365745ae8e2f0c5b255b5.png"
+  fileName: "4b81b4bd8f57ae00fdcf75023c6a6cc0.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/4b81b4bd8f57ae00fdcf75023c6a6cc0.png"
+  size: 4849
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "cdca9085796365745ae8e2f0c5b255b5.png"
+fileName: "4b81b4bd8f57ae00fdcf75023c6a6cc0.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/4b81b4bd8f57ae00fdcf75023c6a6cc0.png"
+size: 4849
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c7363cb6c4e338dd7141d0947443ff84"
+formID: "671e54be65bf025650a367d6"
+fileInfos {
+  originalFileName: "2d83543b22def376d9adb55768fc4274.png"
+  fileName: "2179edeeace189aef11d26d3b707ed0a.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/2179edeeace189aef11d26d3b707ed0a.png"
+  size: 56116
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "2d83543b22def376d9adb55768fc4274.png"
+fileName: "2179edeeace189aef11d26d3b707ed0a.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/2179edeeace189aef11d26d3b707ed0a.png"
+size: 56116
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "0f0b9d4275de4b1203ef49a35727b4d7"
+formID: "671e5570cd2fc0dad02edb6f"
+fileInfos {
+  originalFileName: "cbb84009bc7897c30113a9df5ed9444d.png"
+  fileName: "5f7b543629af4ef77e3a67e511a9984e.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/5f7b543629af4ef77e3a67e511a9984e.png"
+  size: 69505
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "cbb84009bc7897c30113a9df5ed9444d.png"
+fileName: "5f7b543629af4ef77e3a67e511a9984e.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/5f7b543629af4ef77e3a67e511a9984e.png"
+size: 69505
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "90bca1890c66e0df4625e26146424368"
+formID: "671e557dcd2fc0dad02edb70"
+fileInfos {
+  originalFileName: "b67c9575d708c86fb9259c3a70d58eee.png"
+  fileName: "0b47c75da3ad05eff9ea372ab4066b48.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/0b47c75da3ad05eff9ea372ab4066b48.png"
+  size: 109613
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "b67c9575d708c86fb9259c3a70d58eee.png"
+fileName: "0b47c75da3ad05eff9ea372ab4066b48.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/0b47c75da3ad05eff9ea372ab4066b48.png"
+size: 109613
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "81d985e168137cf5e8b03609eb188c61"
+formID: "671e5583cd2fc0dad02edb71"
+fileInfos {
+  originalFileName: "6efb40a50e7ecc76df3b6fc9fcff0e94.png"
+  fileName: "cefe0d06731e7e0a94ada3d336db9bcf.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/cefe0d06731e7e0a94ada3d336db9bcf.png"
+  size: 72294
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "6efb40a50e7ecc76df3b6fc9fcff0e94.png"
+fileName: "cefe0d06731e7e0a94ada3d336db9bcf.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/cefe0d06731e7e0a94ada3d336db9bcf.png"
+size: 72294
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "3ada285b22defb09bd86686f89af2bc4"
+formID: "67294402b346bdaa151a98ca"
+fileInfos {
+  originalFileName: "f1aae5e6e5862708e25e6b7afbb9519f.png"
+  fileName: "173c55b1cf64f0d4cb44f9f5db12b5e6.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/173c55b1cf64f0d4cb44f9f5db12b5e6.png"
+  size: 182268
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "f1aae5e6e5862708e25e6b7afbb9519f.png"
+fileName: "173c55b1cf64f0d4cb44f9f5db12b5e6.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/173c55b1cf64f0d4cb44f9f5db12b5e6.png"
+size: 182268
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "4980789a1d9eab5ab0ef6cc3f5ef8a45"
+formID: "6729440db346bdaa151a98cb"
+fileInfos {
+  originalFileName: "47713fcdc831352506bb587f28ea2a3f.png"
+  fileName: "f5d0fa28b00f32faf4e674451c0f2d30.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f5d0fa28b00f32faf4e674451c0f2d30.png"
+  size: 85985
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "47713fcdc831352506bb587f28ea2a3f.png"
+fileName: "f5d0fa28b00f32faf4e674451c0f2d30.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f5d0fa28b00f32faf4e674451c0f2d30.png"
+size: 85985
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "5a48066247f304dd8deffa81664acafb"
+formID: "672944e0dc73629442fc9d3e"
+fileInfos {
+  originalFileName: "7e5ee15c1e77c9037efbb8feda056b19.png"
+  fileName: "995c7adc7b94d4b55980c55c4e47c692.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/995c7adc7b94d4b55980c55c4e47c692.png"
+  size: 34042
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "7e5ee15c1e77c9037efbb8feda056b19.png"
+fileName: "995c7adc7b94d4b55980c55c4e47c692.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/995c7adc7b94d4b55980c55c4e47c692.png"
+size: 34042
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "433745d0c64b6163e6a024e3cb308b9d"
+formID: "67294564dc73629442fc9d40"
+fileInfos {
+  originalFileName: "e6f93b3ed2f5f041f3143a08616c6685.png"
+  fileName: "9c95a0fbda81edf3da844e49b0255704.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9c95a0fbda81edf3da844e49b0255704.png"
+  size: 16611
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "e6f93b3ed2f5f041f3143a08616c6685.png"
+fileName: "9c95a0fbda81edf3da844e49b0255704.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9c95a0fbda81edf3da844e49b0255704.png"
+size: 16611
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "936e7df38328a8cbd05c43222a1c7512"
+formID: "67294574dc73629442fc9d41"
+fileInfos {
+  originalFileName: "85bdbcd84ebb36c9d4bcd508c8bf7ee9.png"
+  fileName: "9b5224f8f63010f4a43d76c201001d97.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9b5224f8f63010f4a43d76c201001d97.png"
+  size: 22900
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "85bdbcd84ebb36c9d4bcd508c8bf7ee9.png"
+fileName: "9b5224f8f63010f4a43d76c201001d97.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/9b5224f8f63010f4a43d76c201001d97.png"
+size: 22900
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "cf504c8650987f51e21a30bfa2c697b4"
+formID: "672a1f0875951b731072e35c"
+fileInfos {
+  originalFileName: "5faa5be656189cb2666cc67bb6f48067.png"
+  fileName: "a950853231019b86b6ce9ef4e76a0208.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a950853231019b86b6ce9ef4e76a0208.png"
+  size: 14025
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "5faa5be656189cb2666cc67bb6f48067.png"
+fileName: "a950853231019b86b6ce9ef4e76a0208.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a950853231019b86b6ce9ef4e76a0208.png"
+size: 14025
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "9be4dd985d7f3869c09ff0b34a680d5a"
+formID: "672a7a895c19c97b6f2716b7"
+fileInfos {
+  originalFileName: "9355b557ede143e79e7e756940b16d6c.png"
+  fileName: "cb696784cfcfc627c6613b65507f3fbc.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/cb696784cfcfc627c6613b65507f3fbc.png"
+  size: 39522
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "9355b557ede143e79e7e756940b16d6c.png"
+fileName: "cb696784cfcfc627c6613b65507f3fbc.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/cb696784cfcfc627c6613b65507f3fbc.png"
+size: 39522
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "35d60c3b2b495d004bdcdea4fe8ec3e5"
+formID: "672d189ee0f479d2ab0363d6"
+fileInfos {
+  originalFileName: "79c0e2c58cf43d62941afecb99f5cfcb.png"
+  fileName: "1cae08ce0d2cc79e665e01e33ff5b682.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/1cae08ce0d2cc79e665e01e33ff5b682.png"
+  size: 23053
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "79c0e2c58cf43d62941afecb99f5cfcb.png"
+fileName: "1cae08ce0d2cc79e665e01e33ff5b682.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/1cae08ce0d2cc79e665e01e33ff5b682.png"
+size: 23053
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f0014da1a50d527c82db4988f18d688d"
+formID: "672d1937027d68f5a555e8ea"
+fileInfos {
+  originalFileName: "b5025c564a58600a193721cb7f808431.png"
+  fileName: "a0bb96dff89fe9efc240ee81ed53b9dd.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a0bb96dff89fe9efc240ee81ed53b9dd.png"
+  size: 7008
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "b5025c564a58600a193721cb7f808431.png"
+fileName: "a0bb96dff89fe9efc240ee81ed53b9dd.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a0bb96dff89fe9efc240ee81ed53b9dd.png"
+size: 7008
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "b854b1c038112ea0bcba1b95d786fe9c"
+formID: "672d1c7ef9349d5211a7c15f"
+fileInfos {
+  originalFileName: "65208495e88a6d1e8c3dbc1d0ba5e127.png"
+  fileName: "f759154316ef1246154195c3d3391fd6.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f759154316ef1246154195c3d3391fd6.png"
+  size: 27494
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "65208495e88a6d1e8c3dbc1d0ba5e127.png"
+fileName: "f759154316ef1246154195c3d3391fd6.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/f759154316ef1246154195c3d3391fd6.png"
+size: 27494
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "20d8c17daeedf506ef71020aaea539d6"
+formID: "6730eec3dc040678f26f19ac"
+fileInfos {
+  originalFileName: "4ac07e92ab42dfb1ca8065383f855f9a.png"
+  fileName: "ebed9b2755610d1522d9ff497fe0d356.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ebed9b2755610d1522d9ff497fe0d356.png"
+  size: 65079
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "4ac07e92ab42dfb1ca8065383f855f9a.png"
+fileName: "ebed9b2755610d1522d9ff497fe0d356.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ebed9b2755610d1522d9ff497fe0d356.png"
+size: 65079
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f657fa365da2dc95b43eed08ced8eaff"
+formID: "67325b463c9d6d6f7545e575"
+fileInfos {
+  originalFileName: "c3d63d1161ff71a3c56ed1a434f8aed7.png"
+  fileName: "8f80fb8133b3e43c4f216d38150b4c4e.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/8f80fb8133b3e43c4f216d38150b4c4e.png"
+  size: 13665
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "c3d63d1161ff71a3c56ed1a434f8aed7.png"
+fileName: "8f80fb8133b3e43c4f216d38150b4c4e.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/8f80fb8133b3e43c4f216d38150b4c4e.png"
+size: 13665
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "b221132947c30adb0f920975415ff37c"
+formID: "67325b4c3c9d6d6f7545e576"
+fileInfos {
+  originalFileName: "6bf502b960d964666dee03af8e85f596.png"
+  fileName: "0b7e8120bb3a1ac9ec7fd07f8f27298d.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/0b7e8120bb3a1ac9ec7fd07f8f27298d.png"
+  size: 35801
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "6bf502b960d964666dee03af8e85f596.png"
+fileName: "0b7e8120bb3a1ac9ec7fd07f8f27298d.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/0b7e8120bb3a1ac9ec7fd07f8f27298d.png"
+size: 35801
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "bd8aa811649b9b6fb304bf3e73f9eadf"
+formID: "67325b703c9d6d6f7545e577"
+fileInfos {
+  originalFileName: "a3bca8c5e14ffbada1b08e37b380d53e.png"
+  fileName: "bda7196e89d18bfdfe0cc7540cf3208c.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/bda7196e89d18bfdfe0cc7540cf3208c.png"
+  size: 28699
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "a3bca8c5e14ffbada1b08e37b380d53e.png"
+fileName: "bda7196e89d18bfdfe0cc7540cf3208c.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/bda7196e89d18bfdfe0cc7540cf3208c.png"
+size: 28699
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "046134318f77f72c8bad7f4dd2044911"
+formID: "67325bfa3c9d6d6f7545e578"
+fileInfos {
+  originalFileName: "b8ea75a910c0f0991ff54192ee310d00.png"
+  fileName: "e2cba817e0b2d2917bbb4571867fd9e0.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/e2cba817e0b2d2917bbb4571867fd9e0.png"
+  size: 33562
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "b8ea75a910c0f0991ff54192ee310d00.png"
+fileName: "e2cba817e0b2d2917bbb4571867fd9e0.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/e2cba817e0b2d2917bbb4571867fd9e0.png"
+size: 33562
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "6c2f87a2a6a95552e2fa5ccfb29ab526"
+formID: "67339faa0cc055cc1680a1fe"
+fileInfos {
+  originalFileName: "75a889750105b9e5df241e7b1e7476a5.png"
+  fileName: "98b3be39c3390f19ef0166997649352c.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/98b3be39c3390f19ef0166997649352c.png"
+  size: 24579
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "75a889750105b9e5df241e7b1e7476a5.png"
+fileName: "98b3be39c3390f19ef0166997649352c.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/98b3be39c3390f19ef0166997649352c.png"
+size: 24579
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "baea2dfc1f1a40d53c7e0c1be98c08e7"
+formID: "67339faa0cc055cc1680a1ff"
+fileInfos {
+  originalFileName: "526f23570fc95e5ddbd0fc1e674fed6d.png"
+  fileName: "c438ac7dd3256ad3eae4ef3c4dee2a51.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c438ac7dd3256ad3eae4ef3c4dee2a51.png"
+  size: 7201
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "526f23570fc95e5ddbd0fc1e674fed6d.png"
+fileName: "c438ac7dd3256ad3eae4ef3c4dee2a51.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c438ac7dd3256ad3eae4ef3c4dee2a51.png"
+size: 7201
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "17375626b8684d8e26e575bc2b389508"
+formID: "673e5305be3bf839b3ba2b01"
+fileInfos {
+  originalFileName: "224d64d55906f2ef594a6aa941683ca5.png"
+  fileName: "b9f22e438282a600953911f328efa427.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b9f22e438282a600953911f328efa427.png"
+  size: 24713
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "224d64d55906f2ef594a6aa941683ca5.png"
+fileName: "b9f22e438282a600953911f328efa427.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/b9f22e438282a600953911f328efa427.png"
+size: 24713
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "cb273a6527d3388f64e163ceaf494dfb"
+formID: "673e535739b9762dbd30d2dc"
+fileInfos {
+  originalFileName: "7c48d1e8876b51c759d4db2e18061203.png"
+  fileName: "4bca04c7fbad3e87456d2b3d085efa97.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/4bca04c7fbad3e87456d2b3d085efa97.png"
+  size: 29869
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "7c48d1e8876b51c759d4db2e18061203.png"
+fileName: "4bca04c7fbad3e87456d2b3d085efa97.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/4bca04c7fbad3e87456d2b3d085efa97.png"
+size: 29869
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "c6cdbde7e3c8d9e72535857606495a98"
+formID: "6750c824ea08319a7afab17d"
+fileInfos {
+  originalFileName: "9d422774adf0725b61aabbab20f81aee.png"
+  fileName: "632d8bbec35a3c42dd6acceb1da97110.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/632d8bbec35a3c42dd6acceb1da97110.png"
+  size: 20540
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "9d422774adf0725b61aabbab20f81aee.png"
+fileName: "632d8bbec35a3c42dd6acceb1da97110.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/632d8bbec35a3c42dd6acceb1da97110.png"
+size: 20540
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "507f08755d3ada1cf38f130d5e39a48e"
+formID: "6750c829ea08319a7afab17e"
+fileInfos {
+  originalFileName: "6fc2cf27a07715e79192201097bbafc3.png"
+  fileName: "ee5f72202998d6d018ab7d33daf14eb1.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ee5f72202998d6d018ab7d33daf14eb1.png"
+  size: 11654
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "6fc2cf27a07715e79192201097bbafc3.png"
+fileName: "ee5f72202998d6d018ab7d33daf14eb1.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/ee5f72202998d6d018ab7d33daf14eb1.png"
+size: 11654
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "08ce94e6ff0e807334e8d7673e641be0"
+formID: "6758a8d0db4a867ac4386078"
+fileInfos {
+  originalFileName: "f2b852e5af5353a6a6ace371b6089c0c.png"
+  fileName: "c9880cf5b104ec062c36969c8ed442d8.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c9880cf5b104ec062c36969c8ed442d8.png"
+  size: 22282
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "f2b852e5af5353a6a6ace371b6089c0c.png"
+fileName: "c9880cf5b104ec062c36969c8ed442d8.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/c9880cf5b104ec062c36969c8ed442d8.png"
+size: 22282
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "927157125015c45956683ec76b7a564a"
+formID: "6763298100ae861cf05b4263"
+fileInfos {
+  originalFileName: "6b100461f1e9be951f6dbdee072c4954.png"
+  fileName: "78a2d351cfe6683e3f86130eef597e8b.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/78a2d351cfe6683e3f86130eef597e8b.png"
+  size: 20393
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "6b100461f1e9be951f6dbdee072c4954.png"
+fileName: "78a2d351cfe6683e3f86130eef597e8b.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/78a2d351cfe6683e3f86130eef597e8b.png"
+size: 20393
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "f3e11d3763bf64ebfdd8995571da9e25"
+formID: "67632b80a8b923e05306e33b"
+fileInfos {
+  originalFileName: "54b90803d5b57aec808e655fe70f0cb8.png"
+  fileName: "341908475f2d5556f882bff30532bc27.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/341908475f2d5556f882bff30532bc27.png"
+  size: 33940
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "54b90803d5b57aec808e655fe70f0cb8.png"
+fileName: "341908475f2d5556f882bff30532bc27.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/341908475f2d5556f882bff30532bc27.png"
+size: 33940
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "55a8cf8c64cd2b05606cd920c8d1aee3"
+formID: "678971d187fcd956c567510d"
+fileInfos {
+  originalFileName: "aaa88f4435387215302e2132c5477646.png"
+  fileName: "5f6a4d812b7f69babb4547230f048b12.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/5f6a4d812b7f69babb4547230f048b12.png"
+  size: 54490
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "aaa88f4435387215302e2132c5477646.png"
+fileName: "5f6a4d812b7f69babb4547230f048b12.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/5f6a4d812b7f69babb4547230f048b12.png"
+size: 54490
+formKey: "file"
+
+SaveFileData invoked
+request userID: "665905fcba70778604d5fcb2"
+orgID: "64540b79cb7c89d64e01ff45"
+batchID: "08b99f7c0b1eceddb58ce38bcf9f73ac"
+formID: "678971df87fcd956c567510e"
+fileInfos {
+  originalFileName: "b2dc636a3bef935cd07c163e9d2159ea.png"
+  fileName: "a41b95dfcb1bbde59f02209cdf180137.png"
+  s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a41b95dfcb1bbde59f02209cdf180137.png"
+  size: 46609
+  formKey: "file"
+}
+
+request.fileInfos[0] originalFileName: "b2dc636a3bef935cd07c163e9d2159ea.png"
+fileName: "a41b95dfcb1bbde59f02209cdf180137.png"
+s3Key: "64540b79cb7c89d64e01ff45/math/diagrams/a41b95dfcb1bbde59f02209cdf180137.png"
+size: 46609
+formKey: "file"
+
